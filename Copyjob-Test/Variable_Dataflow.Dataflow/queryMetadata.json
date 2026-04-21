@@ -1,0 +1,45 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Variable_Dataflow",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "holidaydatacontainer": {
+      "queryId": "0edd93d1-1abf-424a-82fd-e47d9adbfcee",
+      "queryName": "holidaydatacontainer"
+    },
+    "WorkspaceId": {
+      "queryId": "a303ae19-810f-4179-a9aa-eeb44e4b3424",
+      "queryName": "WorkspaceId"
+    },
+    "LakehouseID": {
+      "queryId": "944001be-f8a7-4fc5-9e8b-69dc60f104c0",
+      "queryName": "LakehouseID"
+    },
+    "Region": {
+      "queryId": "29faad4a-1259-4676-b705-60da5851390d",
+      "queryName": "Region"
+    },
+    "holidaydatacontainer_DataDestination": {
+      "queryId": "2e5f4c1f-fc59-4084-99a0-d2b3fda26519",
+      "queryName": "holidaydatacontainer_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"d2e1dd45-726b-497b-b762-f0c0863a48e4\",\"DatasourceId\":\"6a853935-8265-47d0-b20e-defd360460d8\"}"
+    },
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"d2e1dd45-726b-497b-b762-f0c0863a48e4\",\"DatasourceId\":\"df318e94-71e0-43d7-a4b2-d2a4fe7ca46b\"}"
+    }
+  ]
+}
